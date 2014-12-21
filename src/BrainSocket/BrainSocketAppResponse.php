@@ -28,9 +28,11 @@ class BrainSocketAppResponse{
 	 * @return object
 	 */
 	public function message($event,$data=array()){
-		$response = (object)array();
-		$response->event = $event;
-		$response->data = $data;
+		$response = array();
+		array_push($response, $event);
+		array_push($response, $data);
+		// $response->event = $event;
+		// $response->data = $data;
 		return $response;
 	}
 
