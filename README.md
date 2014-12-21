@@ -36,7 +36,7 @@ There is also an optional but recommended Facade you should add to the `aliases`
 ```php
 'aliases' => array(
 	...
-	'BrainSocket'     => 'BrainSocket\BrainSocketFacade',
+	'BrainSocket'     => 'jhonn921007\BrainSocketFacade',
 ```
 
 Next open `terminal` and `cd` into your Laravel project directory.
